@@ -5,6 +5,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
+
 .navbar {
 
     background-color: rgb(244, 237, 237);
@@ -45,7 +47,7 @@ a {
     color: black;
 }
 
-.img-info {
+.container-bgrnd {
 
     background-image: url(/Assets/damian-patkowski-T-LfvX-7IVg-unsplash.jpg);
     background-size: cover;
@@ -54,17 +56,47 @@ a {
     /* Prevent image repetition */
     background-position: center center;
     /* Center the image horizontally and vertically */
-    background-color: rgb(188, 192, 195);
+    background-color: rgb(170, 175, 179);
     padding-top: 15rem;
     padding-bottom: 15rem;
     background-blend-mode: multiply;
+    position: relative;
+
+
 }
 
 .intro-statement {
-    color: rgb(192, 198, 203);
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+    font-size: 4rem;
+    position: relative;
+    top: -6rem;
+    left: 8rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    max-width: fit-content;
+}
 
+.intro-para {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 1.5rem;
+    top: -6rem;
+    left: 8rem;
+    max-width: fit-content;
 
+}
 
+#ln-mr {
+    position: relative;
+    top: -4rem;
+    left: 8rem;
+    background-color: rgb(191, 184, 184);
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
 }
