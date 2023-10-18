@@ -2,10 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
-
+body {
+    background-color: rgb(244, 237, 237);
+}
 
 .navbar {
 
@@ -58,9 +61,10 @@ a {
     /* Center the image horizontally and vertically */
     background-color: rgb(170, 175, 179);
     padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-bottom: 27rem;
     background-blend-mode: multiply;
     position: relative;
+    margin-bottom: 2rem;
 
 
 }
@@ -99,4 +103,54 @@ a {
     padding-bottom: 0.7rem;
     font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
+    place-items: center;
+}
+
+.std-div {
+    display: grid;
+    grid-template-areas: 'one two';
+    gap: 1.5rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+
+
+
+}
+
+.image {
+    width: 40rem;
+    height: 40rem;
+
+}
+
+.txt {
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-right: rem;
+    margin-right: 3rem;
+    min-width: 14rem;
+}
+
+.heading-img {
+
+
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 0;
+    padding-left: 15rem;
+    padding-bottom: 3rem;
+    padding-top: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.center-para {
+    font-size: 1.2rem;
+    position: relative;
+    left: 4rem;
+    font-style: italic;
+    padding-left: 7rem;
+
 }
