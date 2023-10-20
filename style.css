@@ -259,3 +259,36 @@ a {
 #groot-image {
     height: 5rem;
 }
+
+#final-testimonial {
+    margin-bottom: 12rem;
+}
+
+.footer-logo img {
+    max-width: 80px;
+}
+
+#footer {
+    background-color: #423f3f;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footerlist {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 10rem;
+}
+
+.list-item {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.footer-bottom {
+    padding-left: 50rem;
+}
